@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AGLET Registration - Rarefoot</title>
+    <style>
+        /* Reset and basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #143257;
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #143257;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #143257;
+        }
+
+        /* Main section styles */
+        .main-section {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .main-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+            color: #143257;
+        }
+
+        .main-section p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        /* Form styles */
+        form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+
+        .form-group button {
+            background-color: #143257;
+            color: #fff;
+            border: none;
+            padding: 15px 30px; /* Adjusted padding for larger button */
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+            text-decoration: none; /* Remove default underline */
+            display: block; /* Ensure it behaves like a block element */
+            margin: 0 auto; /* Center horizontally */
+            width: auto; /* Automatically adjust width based on content */
+            max-width: 100%; /* Maximum width */
+        }
+
+        .form-group button:hover {
+            background-color: #0e223b;
+        }
+
+        /* Client Services styles */
+        .client-services {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .client-services h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #143257;
+        }
+
+        .client-services p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .client-services ul {
+            margin-bottom: 10px;
+            padding-left: 20px;
+        }
+
+        .client-services a {
+            color: #143257;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #143257;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #fff;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Rarefoot</h1>
+        <p><b>co-owned by Aglet</b></p>
+    </header>
+
+    <div class="main-section">
+        <h2>Create Your Account</h2>
+
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" notrequired>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="button" onclick="openWebpage()">Create Account</button>
+            </div>
+        </form>
+
+        <div class="client-services">
+            <h3>Client Services</h3>
+            <p>1800 103 9988</p>
+            <p><a href="mailto:info@rarefoot.com">Email us</a></p>
+            <ul>
+                <li>Follow your online orders & in-store visits, and access your purchase history and e-receipts</li>
+                <li>Manage your personal information</li>
+                <li>Receive Rarefoot digital communication</li>
+                <li>Create your personal wishlist</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Rarefoot. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script>
+        function openWebpage() {
+            window.location.href = "file:///Users/apple/Downloads/AGLET-Webpage-main/TechR.html";
+        }
+    </script>
+</body>
+
+</html>
